@@ -15,6 +15,7 @@ class MyString:
     def value(self, new_value):
         if isinstance(new_value, str):
             self._value = new_value
+            
         else:
             print("The value must be a string.")
 
